@@ -1,0 +1,7 @@
+<div [@homeComponent]="stateName" (@homeComponent.start)="consoleState($event)" (@homeComponent.done)="consoleEnd()" class="homePage">
+  <div class="first"></div>
+  <div class="second"></div>
+  <div class="third">
+    <app-nav></app-nav>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+.homePage {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+  div {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
+    &.first {
+      background-color: #9c9c9c;
+    }
+
+    &.second {
+      background-color: #d6d6d6;
+    }
+
+    &.third {
+      background-color: #fff;
+    }
+  }
+}
